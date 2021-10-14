@@ -1,0 +1,21 @@
+a {
+    color: #bb0f0f;
+}
+main{
+    background-color: darkgrey;
+    background-size: 50% 50%;
+    background-attachment: local;
+
+}
+img{
+    margin-left: 25px;
+}
+h2{
+    margin-left: 25px;
+}
+header{
+    background-color: slategray;
+}
+footer{
+    background-color: slategray;
+}
