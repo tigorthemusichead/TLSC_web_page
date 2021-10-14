@@ -2,9 +2,9 @@ a {
     color: #bb0f0f;
 }
 main{
-    background-color: darkgrey;
-    background-size: 50% 50%;
-    background-attachment: local;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 57%, 54% 100%, 0 100%, 0 0);
+    background-color: #cdb8b5;
 
 }
 img{
@@ -14,8 +14,10 @@ h2{
     margin-left: 25px;
 }
 header{
-    background-color: slategray;
+    background-color: #8492b9;
+    clip-path: polygon(100% 0, 100% 5%, 100% 100%, 0% 100%, 0 0);
 }
 footer{
     background-color: slategray;
+    clip-path: polygon(54% 0, 50% 50%, 54% 100%, 0% 100%, 0 0);
 }
