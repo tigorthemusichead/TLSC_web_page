@@ -1,42 +1,76 @@
-.neverhate{
-    display: inline-block;
-    mix-blend-mode: overlay;
-    border-left: solid 5px black;
+.header{
+    height: 100px;
+    position: relative;
+    background-color: #dd8c70;
 }
-.aplan{
-    float: left;
-    mix-blend-mode: overlay;
-}
-.foot{
-    width: 525px;
-    height: 75px;
-    border-bottom: solid 5px black;
-    border-left: solid 5px black;
-    border-right: solid 5px black;
-}
-.foot p{
-    float: left;
-}
-h1{
-    font-size: 28px;
-}
-.nim{
-    border-bottom: solid 5px black;
-}
-hd{
-    height: 120px;
-    width: 540px;
-}
-.hd img{
-    width: 535px;
-    height: 150px;
+.header h1{
     position: absolute;
+    margin: 0px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
-.hd h1{
+.header span{
+    font-size:40px;
+}
+.footer{
+    height: 100px;
+    position: relative;
+    background-color: #dd8c70;
+}
+.footer p{
+    position: absolute;
+    margin: 0px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.image img{
+    height: 300px;
+    border-radius: 50px;
+}
+
+.neverhate{
+    display: flex;
+    position:relative;
+}
+.neverhate:hover{
+    color: white;
+}
+.tracks{
+    position: absolute;
+    bottom:0;
+    margin-left: 350px;
+    width: 300px;
+    list-style-type: "♪ " ;
+}
+.link{
     color: black;
-    mix-blend-mode: overlay;
+    text-decoration: none;
 }
-main{
-    border: solid 5px black;
-    width: 525px;
+.link:hover{
+    color: #f5f5f5;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    background: no-repeat center / cover url("https://healthyhintsandhabits.com/wp-content/uploads/2018/11/radial-gradient.png");
+}
+.albums{
+    align-items: center;
+    justify-content: center;
+}
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+}
+.cover h2{
+    text-align: center;
 }
