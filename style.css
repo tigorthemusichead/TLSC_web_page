@@ -21,7 +21,6 @@
     background-color: #dd8c70;
 }
 .footer p{
-    font-size: 2vw;
     position: absolute;
     margin: 0px;
     text-align: center;
@@ -31,7 +30,7 @@
     transform: translate(-50%, -50%)
 }
 .image img{
-    height: 30vw;
+    height: 300px;
     border-radius: 50px;
 }
 
@@ -45,10 +44,9 @@
 .tracks{
     position: absolute;
     bottom:0;
-    margin-left: 30vw;
-    width: 40vw;
+    margin-left: 350px;
+    width: 300px;
     list-style-type: "♪ " ;
-    font-size: 2vw;
 }
 .link{
     color: black;
